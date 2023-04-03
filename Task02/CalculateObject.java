@@ -19,7 +19,7 @@ public class CalculateObject {
         double sum = Math.pow(10 * cos_alpha, 2) + Math.pow(10 * cos_alpha, 3); //обчислення суми квадрата і куба
         int sum_rounded = (int) Math.round(sum); //округлення до цілого числа 
         String sum_binary = Integer.toBinaryString(sum_rounded); //переведення у двійкову систему 
-        int max_sequence_length = getSequenceLength(sum_binary); //знаходження найбільшої довжини послідовності одиниць
-        return max_sequence_length;
+        int sequence_length = getSequenceLength(sum_binary); //знаходження найбільшої довжини послідовності одиниць
+        return sequence_length;
     }
 }
