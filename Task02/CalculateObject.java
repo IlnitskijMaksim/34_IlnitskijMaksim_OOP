@@ -1,5 +1,14 @@
 public class CalculateObject {
-    public static int getSequenceLength(String binaryString) {
+
+/** 
+ *
+ * Gets the sequence length
+ *
+ * @param binaryString  the binary string
+ * @return the sequence length
+ */
+    public static int getSequenceLength(String binaryString) { 
+
         int maxLength = 0;
         int currentLength = 0;
         for (int i = 0; i < binaryString.length(); i++){
@@ -13,7 +22,16 @@ public class CalculateObject {
         return maxLength;
     }
     
-    public static int calc(double alpha){
+
+/** 
+ *
+ * Calc
+ *
+ * @param alpha  the alpha
+ * @return int
+ */
+    public static int calc(double alpha){ 
+
         double radians = alpha * Math.PI / 180; //переведення кута у радіани
         double cos_alpha = Math.cos(radians); //знаходимо значення косинуса кута
         double sum = Math.pow(10 * cos_alpha, 2) + Math.pow(10 * cos_alpha, 3); //обчислення суми квадрата і куба
