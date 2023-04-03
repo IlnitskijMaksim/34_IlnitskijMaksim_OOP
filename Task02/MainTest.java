@@ -9,10 +9,21 @@ import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+
+ /**
+ * The class Main test
+ */ 
 public class MainTest {
 
     @Test
-    public void testGetSequenceLength() {
+
+/** 
+ *
+ * Test get sequence length
+ *
+ */
+    public void testGetSequenceLength() { 
+
         assertEquals(0, CalculateObject.getSequenceLength("0"));
         assertEquals(1, CalculateObject.getSequenceLength("1"));
         assertEquals(2, CalculateObject.getSequenceLength("011"));
@@ -21,7 +32,14 @@ public class MainTest {
     }
 
     @Test
-    public void testCalc() {
+
+/** 
+ *
+ * Test calc
+ *
+ */
+    public void testCalc() { 
+
         assertEquals(1, CalculateObject.calc(0));
         assertEquals(2, CalculateObject.calc(45));
         assertEquals(1, CalculateObject.calc(90));
@@ -33,7 +51,18 @@ public class MainTest {
     }
 
     @Test
-    public void testSerialization() throws IOException, ClassNotFoundException {
+
+/** 
+ *
+ * Test serialization
+ *
+ * @param IOException  the  IO exception
+ * @param {  the {
+ * @throws   IOException
+ * @throws  ClassNotFoundException 
+ */
+    public void testSerialization() throws IOException, ClassNotFoundException { 
+
         CalculateObject object1 = new CalculateObject();
         ByteArrayOutputStream outStream = new ByteArrayOutputStream();
         ObjectOutputStream objectOutStream = new ObjectOutputStream(outStream);
