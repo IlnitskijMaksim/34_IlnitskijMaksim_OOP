@@ -1,0 +1,16 @@
+import java.io.*;
+
+public class SerializeObject {
+    public static void serialize(Object obj, String filename) {
+        try {
+            FileOutputStream fileOut = new FileOutputStream(filename);
+            ObjectOutputStream out = new ObjectOutputStream(fileOut);
+            out.writeObject(obj);
+            out.close();
+            fileOut.close();
+            System.out.println("Object serialized into file " + filename);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
