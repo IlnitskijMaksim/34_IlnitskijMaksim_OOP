@@ -1,7 +1,20 @@
 import java.io.*;
 
+
+ /**
+ * The class Serialize object
+ */ 
 public class SerializeObject {
-    public static void serialize(Object obj, String filename) {
+
+/** 
+ *
+ * Serialize
+ *
+ * @param obj  the obj
+ * @param filename  the filename
+ */
+    public static void serialize(Object obj, String filename) { 
+
         try {
             FileOutputStream fileOut = new FileOutputStream(filename);
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
