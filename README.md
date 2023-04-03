@@ -15,3 +15,17 @@
 Результат:
 
 ![Task01](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task01/Task01res.png)
+
+# Task02
+
+Виконати індивідуальне завдання
+
+Варіант №6. Визначити найбільшу довжину послідовності 1 в подвійному поданні цілісної суми квадрата і куба 10*cos(α).
+
+Результат:
+
+![Task02](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task02/img/Task02res.png)
+
+Для додатковою перевірки, зміню значення градусів кута:
+
+![Task02](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task02/img/Task02res2.png)
