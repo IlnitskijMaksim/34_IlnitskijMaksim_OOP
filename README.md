@@ -39,4 +39,6 @@
 4. Реалізувати ці методи виведення результатів у текстовому виде.
 5. Розробити тареалізувати інтерфейс для "фабрикуючого" методу.
 
+**Ієрархія:**
+
 ![Task03](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task03/img/Task03res.png)
