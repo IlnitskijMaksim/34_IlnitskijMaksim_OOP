@@ -16,6 +16,8 @@
 
 ![Task01](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task01/Task01res.png)
 
++ [Папка з файлами](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/tree/main/Task01)
+
 # Task02
 
 Виконати індивідуальне завдання
@@ -30,6 +32,8 @@
 
 ![Task02](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task02/img/Task02res2.png)
 
++ [Папка з файлами](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/tree/main/Task02)
+
 # Task03
 
 1. Як основа використовувати вихідний текст проекту попередньої лабораторної роботи. Забезпечити розміщення результатів обчислень уколекції з можливістю збереження/відновлення.
@@ -42,6 +46,8 @@
 **Ієрархія:**
 
 ![Task03](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task03/img/Task03res.png)
+
++ [Папка з файлами](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/tree/main/Task03)
 
 # Task04
 
@@ -57,3 +63,6 @@
 **Результат роботи програми:**
 
 ![Task04](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task04/img/Task04res.png)
+
++ [Папка з файлами](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/tree/main/Task04)
+
