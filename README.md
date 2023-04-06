@@ -12,7 +12,7 @@
 
 Виконати розробку найпростішої консольної програми на Java, наприклад, що виводить на екран усі аргументи командного рядка, задані під час запуску та розмістити їх у локальному сховищі.
 
-Результат:
+## Результат:
 
 ![Task01](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task01/Task01res.png)
 
@@ -24,11 +24,11 @@
 
 Варіант №6. Визначити найбільшу довжину послідовності 1 в подвійному поданні цілісної суми квадрата і куба 10*cos(α).
 
-Результат:
+## Результат:
 
 ![Task02](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task02/img/Task02res.png)
 
-Для додатковою перевірки, зміню значення градусів кута:
+## Для додатковою перевірки, зміню значення градусів кута:
 
 ![Task02](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task02/img/Task02res2.png)
 
@@ -43,7 +43,7 @@
 4. Реалізувати ці методи виведення результатів у текстовому виде.
 5. Розробити тареалізувати інтерфейс для "фабрикуючого" методу.
 
-**Ієрархія:**
+## Ієрархія:
 
 ![Task03](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task03/img/Task03res.png)
 
@@ -60,9 +60,31 @@
 4. Розробити клас для тестування основної функціональності.
 5. Використати коментарі для автоматичної генерації документації засобами javadoc.
 
-**Результат роботи програми:**
+## Результат роботи програми:
 
 ![Task04](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task04/img/Task04res.png)
 
 + [Папка з файлами](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/tree/main/Task04)
+
+# Task05
+
+1. Реалізувати можливість скасування (undo) операцій (команд).
+2. Продемонструвати поняття "макрокоманда"
+3. При розробці програми використовувати шаблон Singletone.
+4. Забезпечити діалоговий інтерфейс із користувачем.
+5. Розробити клас для тестування функціональності програми.
+
+## Ієрархія:
+
+![Task05](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task05/img/Task05.png)
+
+## Робота коду:
+
+![Task05](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task05/img/Task05res.png)
+
+## Вказування на помилки в коді:
+
+![Task05](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task05/img/Task05fail.png)
+
++ [Папка з файлами](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/tree/main/Task05)
 
