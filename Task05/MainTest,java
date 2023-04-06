@@ -1,0 +1,54 @@
+import org.junit.jupiter.api.Test;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
+import java.io.PrintStream;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class MainTest {
+
+    @Test
+    public void testCalculateCommand() {
+        String input = "calculate\n3\n4\n5\nexit\n";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        System.setIn(in);
+        System.setOut(new PrintStream(out));
+        Main.main(new String[]{});
+        String[] lines = out.toString().split("\n");
+        assertEquals("Enter a command (calculate, undo, exit):", lines[0]);
+        assertEquals("Enter n: ", lines[1]);
+        assertEquals("Enter m: ", lines[3]);
+        assertEquals("Enter p: ", lines[5]);
+        assertEquals("Result: 27", lines[7]);
+    }
+    @Test
+    public void testUndoCommand() {
+        String input = "calculate\n3\n4\n5\nundo\nexit\n";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        System.setIn(in);
+        System.setOut(new PrintStream(out));
+        Main.main(new String[]{});
+        String[] lines = out.toString().split("\n");
+        assertEquals("Enter a command (calculate, undo, exit):", lines[0]);
+        assertEquals("Enter n: ", lines[1]);
+        assertEquals("Enter m: ", lines[3]);
+        assertEquals("Enter p: ", lines[5]);
+        assertEquals("Result: 27", lines[7]);
+        assertEquals("Undo performed.", lines[9]);
+    }
+    
+    @Test
+    public void testExitCommand() {
+        String input = "exit\n";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        System.setIn(in);
+        System.setOut(new PrintStream(out));
+        Main.main(new String[]{});
+        String[] lines = out.toString().split("\n");
+        assertEquals("Enter a command (calculate, undo, exit):", lines[0]);
+        assertEquals("", lines[1]); // Перевірка, що програма вивела порожній рядок перед завершенням
+    }
+}
