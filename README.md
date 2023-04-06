@@ -14,7 +14,7 @@
 
 ## Результат:
 
-![Task01](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task01/Task01res.png)
+![Task01](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/tree/main/Task01/img/Task01.png)
 
 + [Папка з файлами](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/tree/main/Task01)
 
