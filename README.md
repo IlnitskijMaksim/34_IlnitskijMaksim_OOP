@@ -24,6 +24,10 @@
 
 Варіант №6. Визначити найбільшу довжину послідовності 1 в подвійному поданні цілісної суми квадрата і куба 10*cos(α).
 
+## Алгоритм програми:
+
+![Task02](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task02/img/Task02Diagram.png)
+
 ## Результат:
 
 ![Task02](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task02/img/Task02res.png)
