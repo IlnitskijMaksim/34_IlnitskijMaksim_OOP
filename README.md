@@ -109,6 +109,10 @@
 1. Продемонструвати можливість паралельної обробки елементів колекції (пошук мінімуму, максимуму, обчислення середнього значення, відбір за критерієм, статистична обробка тощо).
 2. Управління чергою завдань (команд) реалізувати за допомогою шаблону Worker Thread.
 
+## Алгоритм роботи програми
+
+![Task06](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task06/img/Task06Diagram.png)
+
 ## Результат:
 
 ![Task06](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task06/img/Task06res.png)
