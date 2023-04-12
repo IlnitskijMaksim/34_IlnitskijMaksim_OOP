@@ -68,6 +68,10 @@
 4. Розробити клас для тестування основної функціональності.
 5. Використати коментарі для автоматичної генерації документації засобами javadoc.
 
+## Алгоритм роботи програми:
+
+![Task04](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task04/img/Task04Diagram.png)
+
 ## Результат роботи програми:
 
 ![Task04](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task04/img/Task04res.png)
