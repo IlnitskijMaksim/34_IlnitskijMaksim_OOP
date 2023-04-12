@@ -86,6 +86,10 @@
 4. Забезпечити діалоговий інтерфейс із користувачем.
 5. Розробити клас для тестування функціональності програми.
 
+## Алгоритм роботи програми:
+
+![Task05](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task05/img/Task05Diagram.png)
+
 ## Ієрархія:
 
 ![Task05](https://github.com/IlnitskijMaksim/34_IlnitskijMaksim_OOP/blob/main/Task05/img/Task05.png)
